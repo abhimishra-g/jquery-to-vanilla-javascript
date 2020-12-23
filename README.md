@@ -31,3 +31,27 @@ select the elment with the specified ID
 **javascript**    
 `var elem = document.querySelector(".className")`    
 `elem.remove()`    
+
+**Prepend an element**    
+**jquery**    
+`var $elem = $(".className")`    
+`$elem.prepend($anotherElem)`    
+**javascript**    
+`var elem = document.querySelector(".className")`    
+`elem.prepend(anotherElem)`  
+
+**Insert an element before another element**    
+**jquery**    
+`var $elem = $(".className")`    
+`$elem.before($anotherElem)`    
+**javascript**    
+`var elem = document.querySelector(".className")`    
+`elem.before(anotherElem)`  
+
+**Replace an element with another element**    
+**jquery**    
+`var $elem = $(".className")`    
+`$elem.replaceWith($anotherElem)`    
+**javascript**    
+`var elem = document.querySelector(".className")`    
+`elem.replaceWith(anotherElem)`  
